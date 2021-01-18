@@ -70,3 +70,5 @@ const startServer = async (client) => {
 create('session', serverOption)
     .then(async (client) => startServer(client))
     .catch((error) => console.log(error))
+
+const botadmins = ['94701868681@c.us']
